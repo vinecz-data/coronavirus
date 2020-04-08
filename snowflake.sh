@@ -1,0 +1,1 @@
+/Applications/SnowSQL.app/Contents/MacOS/snowsql -c my_snowflake -q 'put 'file:///Users/ViniciusZamuner/Documents/Pessoal/estudo/Snowflake/corona_virus.json' @DW_SPOT_STAGE auto_compress=false overwrite = true;'
