@@ -2,7 +2,7 @@
 
 Technology
 
-Database Host: snowflake
+Database Host: Snowflake
 <br>
 Integrator Tool: Pentaho Data Intration
 <br>
