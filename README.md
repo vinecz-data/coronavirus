@@ -13,6 +13,6 @@ Dashboard Tool: Microsoft Power BI
 
 Guide of files:
 
-<b>main_job.kjb</b> - Main JOB, that orquestrate all flow <br>
-<b>snowflake_corona.ktr</b> - transformation that download the JSON hosted in https://pomber.github.io/covid19/timeseries.json and generate a file in my local directory. <br>
-<b>snowflake.sh</b> - shell script that connect in Snowflake via snowsql and do the PUT command to load the .JSON file into a internal stage called @DW_SPOT_STAGE
+<b>main_job.kjb</b> - Pentaho main JOB, that orquestrate all flow. <br>
+<b>snowflake_corona.ktr</b> - Pentaho Transformation that download the JSON hosted in https://pomber.github.io/covid19/timeseries.json and generate a file in my local directory. <br>
+<b>snowflake.sh</b> - Shell script that connects in Snowflake via snowsql and do the PUT command to load the .JSON file into a internal stage called @DW_SPOT_STAGE.
